@@ -67,6 +67,7 @@ public class javaday6 {
 		
 		//Program4
 		int numbersd [][]= {
+				
 				{88,888,8888},
 				{99,999,9999},
 				{66,666,6666}
@@ -85,9 +86,29 @@ public class javaday6 {
             
 		}
 		
-		
-		
-		
+		//Program
+		//t1 =[a,b]
+		// a = [a1,a2]
+		// b = [b1,b2]
+		// a1 = [a1a,a1b,a1c]
+		// a2 = [a2a,a2b,a2c]
+		// b1 = [b1a,b1b,b1c]
+		// b2 = [b2a,b2b,b2c]
+	//program 	
+		int [][][] t1 = {
+				{
+					{11,22,33},
+					{44,55,66}
+				},
+				{
+					{77,88,99},
+					{33,44,99}
+				}
+				
+		};
+		System.out.println(t1[0][0][1]);
+		System.out.println(t1[1][1][1]);
+		System.out.println(t1[1][0][1]);
 		
 		
 		
